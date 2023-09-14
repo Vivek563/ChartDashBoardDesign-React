@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-montserrat: Montserrat;
+    --font-lato: Lato;
+  
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --secondary-text: #858585;
+    --link: #346bd4;
+    --background: #f5f5f5;
+    --field-color-darker: #eaeaea;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+  }
+  
+
+
+/* right side css */
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #3276e7;
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+}
+
+.right {
+  right: 0;
+  background-color: #fff;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 72px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 29.44px;
+  font-family: Poppins;
+}
+.imgsizeproperties{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    left: 10%;
+}
+.imgsizeproperties img{
+   margin: 30px;
+   width: 5%;
+   height: 5%;
+}
+
+/* right side css end */
+
+/* left side css */
+
+.loginform{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.card,
+.card1,
+.input-field1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background-color: var(--color-white);
+}
+.card,
+.input-field1 {
+  width: 422.64px;
+  height: 347.99px;
+}
+.input-field1 {
+  border: 0;
+  background-color: var(--background);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+}
+.input-field {
+  position: absolute;
+  top: 64.77px;
+  left: 32.93px;
+  width: 356.77px;
+  height: 43.91px;
+}
+.button-primary1,
+.input {
+  position: absolute;
+  border-radius: var(--br-3xs);
+}
+.input {
+  border: 0;
+  background-color: var(--field-color-darker);
+  height: 11.24%;
+  width: 84.42%;
+  top: 41.57%;
+  right: 7.79%;
+  bottom: 47.19%;
+  left: 7.79%;
+}
+.input-field1::placeholder,
+.input::placeholder {
+    padding: 20px;
+  }
+.button-primary1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #4285f4;
+}
+.button-primary,
+.sign-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 356.77px;
+  height: 43.91px;
+}
+.sign-in {
+  top: 9.88px;
+  left: 123.59px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  width: 111.93px;
+  height: 23.84px;
+}
+.button-sign-in {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 271.15px;
+  left: 32.93px;
+  width: 356.77px;
+  height: 43.91px;
+}
+.email-address,
+.forgot-password,
+.password {
+  position: absolute;
+  top: 32.93px;
+  left: 32.93px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 105.38px;
+  height: 20.86px;
+}
+.forgot-password,
+.password {
+  top: 130.63px;
+  width: 74.65px;
+}
+.forgot-password {
+  top: 228.33px;
+  left: 34.03px;
+  color: var(--link);
+  width: 136.12px;
+}
+.dont-have-an {
+  color: var(--secondary-text);
+}
+.register-here {
+  color: var(--link);
+}
+.dont-have-an-container {
+  position: absolute;
+  top: 369.94px;
+  left: 68.06px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  text-align: center;
+  display: inline-block;
+  width: 286.51px;
+  height: 20.86px;
+}
+.login-form {
+  position: absolute;
+  top: 185.88px;
+  left: 67.18px;
+  width: 422.64px;
+  height: 390.8px;
+}
+.button,
+.sign-in-with,
+.white {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.button {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.sign-in-with,
+.white {
+  width: 197.6px;
+  height: 32.93px;
+}
+.sign-in-with {
+  top: 8.78px;
+  left: 47.2px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-montserrat);
+  color: var(--secondary-text);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 129.54px;
+  height: 16.47px;
+}
+.google-icon-1 {
+  position: absolute;
+  top: 8.78px;
+  left: 20.86px;
+  width: 15.37px;
+  height: 15.37px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.google-sign-in {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 125.51px;
+  left: 67.18px;
+  width: 197.6px;
+  height: 32.93px;
+}
+.sign-in-with1 {
+  position: absolute;
+  top: 8.78px;
+  left: 50.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120.75px;
+  height: 16.47px;
+}
+.apple-1-icon {
+  position: absolute;
+  top: 7.68px;
+  left: 26.35px;
+  width: 12.62px;
+  height: 15.37px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.apple-sign-in {
+  position: absolute;
+  top: 125.51px;
+  left: 292.22px;
+  width: 197.6px;
+  height: 32.93px;
+  text-align: center;
+  color: var(--secondary-text);
+}
+.sign-in-to,
+.sign-in1 {
+  position: absolute;
+  left: 67.18px;
+  display: inline-block;
+}
+.sign-in-to {
+  top: 76.11px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  width: 176.74px;
+  height: 20.86px;
+}
+.sign-in1 {
+  margin: 0;
+  top: 22.32px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: inherit;
+  width: 143.81px;
+  height: 48.3px;
+}
+.login-form-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 644px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
