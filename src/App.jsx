@@ -1,12 +1,11 @@
 import "./App.css";
-import Signin from "./components/Signin";
-import Card from "./components/Card.jsx";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <>
       {/* <Signin /> */}
-      <Card />
+      <Home />
     </>
   );
 }

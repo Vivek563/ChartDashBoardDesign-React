@@ -1,0 +1,39 @@
+.sidebar{
+    flex: 2;
+
+}
+.sidebar-item{
+    width: 280px;
+    height: 944px;
+    color: #fff;
+    border-radius: 20px;
+    background: #3F84F7;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.navigation{
+    padding: 20px;
+    position: relative;
+}
+.navigation h1{
+    margin: 30px 0;
+    font-size: 36px;  
+} 
+.menu{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.menu i{
+    margin-right: 15px;
+}
+.help{
+    position: absolute;
+    bottom: 30px;
+    
+}
+.help p{
+    margin: 20px;
+}

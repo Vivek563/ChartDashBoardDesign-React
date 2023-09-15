@@ -1,0 +1,194 @@
+.header {
+    flex: 11;
+  }
+  .header-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 27px 8px 16px;
+    padding: 10px 20px;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  .search {
+    margin-right: 40px;
+  }
+  .search input {
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 20px;
+  }
+  .search i {
+    margin-left: -25px;
+    color: #7b7b7b;
+  }
+  .profile-pic {
+    margin-left: 40px;
+  }
+  
+  .profile-pic img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .cards {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 43px 0px 35px;
+  }
+  .card {
+    width: 241px;
+    height: 115px;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+  }
+  .t-revenues {
+    margin: 8px;
+  }
+  .t-revenues i {
+    background: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .t-revenues p {
+    margin: 15px 0 8px;
+  }
+  .revenue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -23px 6px 0px 9px;
+  }
+  .revenue p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .revenue span {
+    color: green;
+    background: #c8c5c5;
+    border-radius: 30px;
+    padding: 5px;
+  }
+  
+  .chart {
+    max-width: 150vh;
+    max-height: 359px;
+    display: flex;
+    margin-left: 37px;
+    margin-top: 29px;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .barchar {
+    width: 10%;
+    height: 10%;
+  }
+  
+  .bar-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 27px 0px 28px;
+  }
+  
+  .barcard-left {
+    width: 50%;
+    margin: 10px;
+    border-radius: 20px;
+    max-height: 46vh;
+    height: 46vh;
+    margin-top: 15px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .barcard-left h5 {
+    font-size: 20px;
+    margin-top: 40px;
+    color: #858585;
+    margin-right: 24px;
+  }
+  .circle {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 634px;
+    border-radius: 50%;
+    top: 760px;
+    background: #98d89e;
+  }
+  .circle h4 {
+    margin-left: 26px;
+    width: 91px;
+    margin-top: -4px;
+  }
+  .circle-2 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 634px;
+    top: 810px;
+    border-radius: 50%;
+    background: #f6dc7d;
+  }
+  span{
+    color: #858585;
+    font-size: 15px;
+  }
+ 
+  .circle-2 h4 {
+    margin-left: 26px;
+    width: 200px;
+    margin-top: -4px;
+  }
+  .circle-3 {
+    position: absolute;
+    width: 11px;
+    border-radius: 50%;
+    height: 11px;
+    left: 634px;
+    top: 857px;
+    background: #ee8484;
+  }
+  .circle-3 h4 {
+    margin-left: 26px;
+    width: 200px;
+    margin-top: -4px;
+  }
+  .barcard-left h1 {
+    font-size: 25x;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .top-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .barcard-right {
+    display: flex;
+    margin: 8px;
+    max-height: 46vh;
+    height: 46vh;
+    margin-top: 15px;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
