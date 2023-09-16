@@ -13,11 +13,11 @@
     justify-content: center;
     
 }
-.navigation{
+.sidenavigation{
     padding: 20px;
     position: relative;
 }
-.navigation h1{
+.sidenavigation h1{
     margin: 30px 0;
     font-size: 36px;  
 } 

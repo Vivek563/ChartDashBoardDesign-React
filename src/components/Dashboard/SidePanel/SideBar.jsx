@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
         <div className='sidebar-item'>
-            <div className="navigation">
+            <div className="sidenavigation">
             <h1>Board.</h1>
             <div className='menu'>
                 <i className="ri-speed-up-line"></i>

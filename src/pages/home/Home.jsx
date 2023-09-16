@@ -1,5 +1,5 @@
-import MainPanel from "../../components/Dashboard/DisplayPanel/MainPanel";
 import Sidebar from "../../components/Dashboard/SidePanel/Sidebar";
+import MainPanel from "../../components/Dashboard/DisplayPanel/MainPanel";
 import "./home.css";
 
 function Home() {
