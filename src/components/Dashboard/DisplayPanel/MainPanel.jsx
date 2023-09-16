@@ -91,11 +91,10 @@ function MainPanel() {
           </div>
         </div>
         <div className="barcard-right">
-          <div className="top-product">
             <SocialCard />
           </div>
         </div>
-      </div>
+     
     </div>
   );
 }

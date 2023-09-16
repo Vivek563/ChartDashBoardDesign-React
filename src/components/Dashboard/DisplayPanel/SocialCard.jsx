@@ -4,9 +4,9 @@ import "./MainPanel.css";
 
 function SocialCard() {
   return (
-    <div>
+    <div className="social-icon">
       <div className="icon">
-        <img src="" alt=""  />
+        <img src="src\assets\iconplus.svg" alt=""  />
       </div>
       <div>
         <h1>Add Profile</h1>

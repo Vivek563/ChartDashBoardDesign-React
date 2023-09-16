@@ -12,7 +12,7 @@ const COLORS = ["#98d89e", "#f6dc7d", "#ee8484"];
 
 export default function App() {
   return (
-    <PieChart width={800} height={400}>
+    <PieChart width={400} height={200}>
       <Pie
         data={data}
         cx={110}
