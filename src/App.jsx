@@ -11,7 +11,6 @@ function App() {
     <GoogleOAuthProvider clientId="644281587104-pg4pn98sn4g7n25ekrbrtfkmbp9s6v61.apps.googleusercontent.com">
       <Signin/>
     </GoogleOAuthProvider>
-    {/* <Home/> */}
 
 
      
