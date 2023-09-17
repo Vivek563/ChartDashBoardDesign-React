@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Signin() {
 
-  function navigateToDashboard() {
-    window.location.href = '/dashboard';
-  }
+ 
   return (
     <>
       <div className="split leftscreen">

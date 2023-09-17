@@ -10,15 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@react-oauth/google": "^0.11.1",
-=======
->>>>>>> b62b25f13c8bddef44c51c7a7a69cc2c31647aa7
     "chart.js": "^4.4.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-    "recharts": "^2.8.0"
+    "react-router-dom": "^6.16.0",
+    "recharts": "^2.8.0",
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -30,10 +31,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.29",
-<<<<<<< HEAD
-    "react-router-dom": "^6.16.0",
-=======
->>>>>>> b62b25f13c8bddef44c51c7a7a69cc2c31647aa7
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
   }
