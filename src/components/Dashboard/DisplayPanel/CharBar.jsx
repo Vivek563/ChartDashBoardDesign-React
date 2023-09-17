@@ -44,11 +44,11 @@ const data = [
 export default function CharBar() {
   return (
     <BarChart
-      width={1050}
-      height={300}
+      width={1055}
+      height={345}
       data={data}
       margin={{
-        top: 10,
+        top: 20,
         right:-20,
         left: 80,
         bottom: 5
